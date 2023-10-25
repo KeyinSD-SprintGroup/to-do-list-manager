@@ -126,39 +126,6 @@ public class Main {
             }
         }
         scanner.close();
-
-//        Glen's Code:
-//        users.add(new User("Andy Anderson"));
-//        users.add(new User("Candy Clinton"));
-//        users.add(new User("Darryl Dean"));
-//        users.add(new User("Elizabeth Earle"));
-//        users.add(new User("Fatima Fink"));
-//        users.add(new User("Gerald Gaines"));
-//        users.add(new User("Hunter Hayse"));
-//        users.add(new User("Ian Iverson"));
-//        users.add(new User("Jessica Jones"));
-//        users.add(new User("Kevin King"));
-//        users.add(new User("Larry Langdon"));
-//
-//        for (User user: users) {
-//            ArrayList<Integer> selections = generateUniqueRandomNumbers();
-//            for (int selection : selections) {
-//                Task newTask = new Task(tasks[selection]);
-//                user.addTask(newTask);
-//            }
-//        }
-//
-//        for (User user : users) {
-//            System.out.println();
-//            user.printAllTasks();
-//        }
-//
-//        for (User user : users) {
-//            int selection = random.nextInt(4);
-//            System.out.println("\nLocation selection: " + selection);
-//            user.markTaskComplete(selection);
-//            user.printAllTasks();
-//        }
     }
 
     public static ArrayList<Integer> generateUniqueRandomNumbers() {
