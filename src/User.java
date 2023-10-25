@@ -7,6 +7,10 @@ public class User {
         this.taskList = new TaskList();
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
     public void addTask(Task newTask) {
         taskList.append(newTask);
     }
@@ -18,5 +22,10 @@ public class User {
     public void printAllTasks() {
         System.out.println(userName + " :");
         taskList.printAllTasks();
+    }
+
+    @Override
+    public String toString() {
+        return userName;
     }
 }

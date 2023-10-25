@@ -11,6 +11,6 @@ public class Task {
     }
 
     public String toString() {
-        return String.format("\"%s\", %s", taskDescription, completed ? "Completed" : "Active");
+        return String.format("\"%s\", %s", taskDescription, completed ? "Completed" : "Pending");
     }
 }
