@@ -7,9 +7,10 @@ public class TaskListTest {
             Task newTask = new Task(taskName);
             taskList.append(newTask);
         }
-
+        System.out.println("\nInitial task list...\n");
         taskList.printAllTasks();
         taskList.markComplete(5);
+        System.out.println("\nTask list after complete item 5...\n");
         taskList.printAllTasks();
 
 
